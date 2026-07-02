@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IronFit Gym - A melhor academia para transformar seu corpo e mente. Musculação, Funcional, Cross Training e Cardio.">
+    <title>IronFit Gym | Transforme seu corpo</title>
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para ícones (Opcional, mas recomendado para portfólio) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Iron<span>Fit</span> Gym</a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#modalidades" class="nav-link">Modalidades</a></li>
+                    <li><a href="#planos" class="nav-link">Planos</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <a href="#planos" class="btn btn-primary btn-mobile">Matricule-se</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#planos" class="btn btn-primary btn-desktop">Matricule-se</a>
+                <button class="hamburger" id="hamburger" aria-label="Abrir Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Hero -->
+        <section class="hero section-animate" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Supere seus <span>limites</span> e alcance sua melhor versão</h1>
+                    <p class="hero-description">Treinamento de alta performance com os melhores profissionais da região. Infraestrutura completa para você atingir seus objetivos.</p>
+                    <div class="hero-buttons">
+                        <a href="#planos" class="btn btn-primary">Conheça os Planos</a>
+                        <a href="#contato" class="btn btn-outline">Aula Experimental</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800&auto=format&fit=crop" alt="Pessoa treinando na IronFit Gym">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section class="sobre section section-animate" id="sobre">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Sobre a <span>IronFit Gym</span></h2>
+                    <p class="section-subtitle">Mais do que uma academia, um estilo de vida focado em resultados.</p>
+                </div>
+                
+                <div class="sobre-content">
+                    <div class="sobre-text">
+                        <p>Fundada com o propósito de democratizar o acesso ao fitness de alta qualidade, a IronFit Gym oferece um ambiente motivador e equipamentos de última geração para todos os níveis de condicionamento.</p>
+                    </div>
+                    
+                    <div class="sobre-diferenciais">
+                        <div class="diferencial-card">
+                            <div class="icon-box">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <h3>Equipamentos Modernos</h3>
+                            <p>As melhores máquinas do mercado para otimizar seus resultados e garantir segurança.</p>
+                        </div>
+                        
+                        <div class="diferencial-card">
+                            <div class="icon-box">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h3>Profissionais Qualificados</h3>
+                            <p>Time de especialistas prontos para montar seu treino e acompanhar sua evolução.</p>
+                        </div>
+                        
+                        <div class="diferencial-card">
+                            <div class="icon-box">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h3>Horário Flexível</h3>
+                            <p>Aberta todos os dias, incluindo feriados, para você nunca perder um treino.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Modalidades -->
+        <section class="modalidades section section-animate" id="modalidades">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nossas <span>Modalidades</span></h2>
+                    <p class="section-subtitle">Escolha a que melhor se adapta aos seus objetivos.</p>
+                </div>
+
+                <div class="modalidades-grid">
+                    <div class="modalidade-card">
+                        <div class="modalidade-img">
+                            <img src="https://images.unsplash.com/photo-1581009146145-b5ef03a7403f?q=80&w=400&auto=format&fit=crop" alt="Musculação">
+                        </div>
+                        <div class="modalidade-info">
+                            <h3>Musculação</h3>
+                            <p>Treinos de força e hipertrofia com acompanhamento especializado.</p>
+                        </div>
+                    </div>
+
+                    <div class="modalidade-card">
+                        <div class="modalidade-img">
+                            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=400&auto=format&fit=crop" alt="Funcional">
+                        </div>
+                        <div class="modalidade-info">
+                            <h3>Funcional</h3>
+                            <p>Melhore sua mobilidade, equilíbrio e força para o dia a dia.</p>
+                        </div>
+                    </div>
+
+                    <div class="modalidade-card">
+                        <div class="modalidade-img">
+                            <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=400&auto=format&fit=crop" alt="Cross Training">
+                        </div>
+                        <div class="modalidade-info">
+                            <h3>Cross Training</h3>
+                            <p>Alta intensidade e desafios constantes para queimar calorias.</p>
+                        </div>
+                    </div>
+
+                    <div class="modalidade-card">
+                        <div class="modalidade-img">
+                            <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?q=80&w=400&auto=format&fit=crop" alt="Cardio">
+                        </div>
+                        <div class="modalidade-info">
+                            <h3>Cardio</h3>
+                            <p>Aulas focadas em resistência cardiovascular e perda de peso.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Planos -->
+        <section class="planos section section-animate" id="planos">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nossos <span>Planos</span></h2>
+                    <p class="section-subtitle">Invista em você com as melhores condições.</p>
+                </div>
+
+                <div class="planos-grid">
+                    <!-- Plano Mensal -->
+                    <div class="plano-card">
+                        <div class="plano-header">
+                            <h3>Mensal</h3>
+                            <div class="price">R$ 129<span>/mês</span></div>
+                        </div>
+                        <ul class="plano-features">
+                            <li><i class="fas fa-check"></i> Acesso total à musculação</li>
+                            <li><i class="fas fa-check"></i> Avaliação física inicial</li>
+                            <li><i class="fas fa-xmark"></i> Sem taxa de cancelamento</li>
+                            <li><i class="fas fa-xmark"></i> Aulas coletivas</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Escolher Plano</a>
+                    </div>
+
+                    <!-- Plano Anual (Destaque) -->
+                    <div class="plano-card featured">
+                        <div class="badge">Mais Popular</div>
+                        <div class="plano-header">
+                            <h3>Anual</h3>
+                            <div class="price">R$ 89<span>/mês</span></div>
+                        </div>
+                        <ul class="plano-features">
+                            <li><i class="fas fa-check"></i> Acesso total à musculação</li>
+                            <li><i class="fas fa-check"></i> Avaliação física trimestral</li>
+                            <li><i class="fas fa-check"></i> Todas as aulas coletivas</li>
+                            <li><i class="fas fa-check"></i> Leve um amigo 2x no mês</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Escolher Plano</a>
+                    </div>
+
+                    <!-- Plano Trimestral -->
+                    <div class="plano-card">
+                        <div class="plano-header">
+                            <h3>Trimestral</h3>
+                            <div class="price">R$ 109<span>/mês</span></div>
+                        </div>
+                        <ul class="plano-features">
+                            <li><i class="fas fa-check"></i> Acesso total à musculação</li>
+                            <li><i class="fas fa-check"></i> Avaliação física inicial</li>
+                            <li><i class="fas fa-check"></i> 1 aula coletiva por semana</li>
+                            <li><i class="fas fa-xmark"></i> Leve um amigo</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Escolher Plano</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Depoimentos -->
+        <section class="depoimentos section section-animate">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">O que dizem nossos <span>Alunos</span></h2>
+                </div>
+
+                <div class="depoimentos-grid">
+                    <div class="depoimento-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p>"Ambiente sensacional e professores muito atenciosos. Consegui atingir meu objetivo em poucos meses com o suporte da IronFit."</p>
+                        <div class="aluno-info">
+                            <img src="https://i.pravatar.cc/150?u=1" alt="Ricardo Silva">
+                            <div>
+                                <h4>Ricardo Silva</h4>
+                                <span>Aluno há 1 ano</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="depoimento-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p>"A melhor infraestrutura da cidade. Os equipamentos são novos e a limpeza é impecável. Recomendo muito o plano anual!"</p>
+                        <div class="aluno-info">
+                            <img src="https://i.pravatar.cc/150?u=2" alt="Juliana Costa">
+                            <div>
+                                <h4>Juliana Costa</h4>
+                                <span>Aluna há 6 meses</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="depoimento-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p>"Treinar na IronFit mudou minha disposição para o trabalho e para a vida. O clima é de amizade e foco total."</p>
+                        <div class="aluno-info">
+                            <img src="https://i.pravatar.cc/150?u=3" alt="Marcos Oliveira">
+                            <div>
+                                <h4>Marcos Oliveira</h4>
+                                <span>Aluno há 2 anos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção FAQ -->
+        <section class="faq section section-animate" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Perguntas <span>Frequentes</span></h2>
+                </div>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Preciso agendar horário para treinar?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Não, você pode treinar em qualquer horário dentro do nosso funcionamento. Apenas as aulas coletivas exigem reserva via aplicativo.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Existe taxa de matrícula?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>No Plano Anual a taxa de matrícula é gratuita. Nos demais planos, consulte as condições vigentes na recepção.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Posso trancar meu plano em caso de viagem?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim, no Plano Anual você tem direito a trancar por até 30 dias por ano sem custos adicionais.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>A academia oferece estacionamento?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim, possuímos estacionamento gratuito e conveniado para nossos alunos durante o período de treino.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção CTA -->
+        <section class="cta section section-animate">
+            <div class="container cta-container">
+                <h2>Pronto para começar sua transformação?</h2>
+                <p>Junte-se a centenas de alunos que já mudaram de vida com a IronFit Gym.</p>
+                <a href="#planos" class="btn btn-primary btn-large">Começar Agora</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer" id="contato">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="#" class="logo">Iron<span>Fit</span> Gym</a>
+                <p>Transformando vidas através do movimento e da disciplina. Sua jornada para a alta performance começa aqui.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#modalidades">Modalidades</a></li>
+                    <li><a href="#planos">Planos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contato</h4>
+                <ul>
+                    <li><i class="fas fa-location-dot"></i> Av. Fitness, 1000 - Centro</li>
+                    <li><i class="fas fa-phone"></i> (11) 99999-9999</li>
+                    <li><i class="fas fa-envelope"></i> contato@ironfitgym.com.br</li>
+                    <li><i class="fas fa-clock"></i> Seg - Sex: 06h às 23h</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 IronFit Gym. Todos os direitos reservados. Desenvolvido para portfólio.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button id="back-to-top" title="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript Customizado -->
+    <script src="js/script.js"></script>
+</body>
+</html>
