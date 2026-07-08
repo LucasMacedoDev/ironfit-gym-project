@@ -16,7 +16,8 @@ Este projeto foi criado com o objetivo de demonstrar habilidades em desenvolvime
 
 ## 📸 Preview
 
-<img width="1890" height="863" alt="image" src="https://github.com/user-attachments/assets/89875904-1b8b-4ab5-88fa-67ed28a05356" />
+<img width="1890" height="858" alt="image" src="https://github.com/user-attachments/assets/0beae5c8-9ef8-4f60-9460-7f5735cacd4e" />
+
 
 
 # ✨ Funcionalidades
